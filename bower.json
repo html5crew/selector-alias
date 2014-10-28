@@ -13,10 +13,13 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "*_spec.js",
+      "karma.conf.js",
+      "package.json",
+      "Gruntfile.js",
+      "README.md"
   ]
 }
