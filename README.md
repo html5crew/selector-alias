@@ -13,13 +13,12 @@ Short alias for `querySelectorAll`
 ### Usage
 
 ```js
-    var $ = Selector.$,
-        $$ = Selector.$$;
-    
-    ...
-    
-    var btns = $$('ul > li .btn', parentNode);
+var $ = Selector.$,
+    $$ = Selector.$$;
 
+...
+
+var btns = $$('ul > li .btn', parentNode);
 ```
 
 
@@ -28,12 +27,12 @@ Short alias for `querySelectorAll`
 If you should supports old browsers, import sizzle or jquery on your page.
    
 ```html
-    <!--[if lt IE 9]>
-    <script src="sizzle.js"></script>
-    <![endif]-->
-    
-    <script>
-    var elements = Selector.$$('.works .with .sizzle');
-    ...
-    </script>
+<!--[if lt IE 9]>
+<script src="sizzle.js"></script>
+<![endif]-->
+
+<script>
+var elements = Selector.$$('.works .with .sizzle');
+...
+</script>
 ```
