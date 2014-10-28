@@ -1,0 +1,29 @@
+{
+  "name": "selector-alias",
+  "version": "1.0.0",
+  "description": "Short alias for querySelectorAll, jQuery and Sizzle",
+  "main": "selector-alias.js",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-karma": "^0.9.0",
+    "grunt-release": "^0.7.0",
+    "grunt-wiredep": "^1.9.0",
+    "karma": "^0.12.24",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/html5crew/selector-alias.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/html5crew/selector-alias/issues"
+  },
+  "homepage": "https://github.com/html5crew/selector-alias"
+}
